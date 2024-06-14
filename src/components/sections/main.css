@@ -1,0 +1,65 @@
+.main-sec{
+  height: 56vh;
+  width: 46vh;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5vh;
+  /* border-top-left-radius: 5vh;
+  border-top-right-radius: 5vh; */
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+
+}
+
+.main-sec:hover{
+  scale: 1.05;
+  transition: all ease 0.4s;
+  
+}
+
+
+.card{
+  height: 56vh;
+  width: 46vh;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5vh;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo{
+  object-fit: contain;
+  height: 20vh;
+  width: 100%;
+}
+
+.company-logo>img{
+  height: 20vh;
+  width: 100%;
+}
+
+.company-info{
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  gap: 1vh;
+}
+
+.apply-btn{
+  padding: 1vh 2vh;
+  border-radius: 2vh;
+  background-color: aquamarine;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-top: 1vh;
+}
+
+.apply-btn:hover{
+  border: 2px solid black;
+}

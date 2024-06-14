@@ -1,0 +1,52 @@
+.active{
+  background-color: #323232;
+  color: white;
+  transition: all ease-in 0.5s;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DDD0C8;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 0.2vh solid #323232;
+}
+
+nav>.logo{
+  padding-left: 4vh;
+}
+
+.logo>img{
+  height: 10vh;
+  width: 10vh;
+  object-fit: contain;
+}
+
+nav ul{
+  display: flex;
+  padding: 0 2vh;
+  gap: 1vh;
+
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: #323232;
+  padding: 2vh;
+  border-radius: 4vh;
+}
+
+nav ul li a:not(.active):hover{
+  background-color: #3232327d;
+  transition: all ease 0.5s;
+}
